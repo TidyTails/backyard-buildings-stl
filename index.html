@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Backyard Buildings STL | Storage Buildings & Garages | St. Louis, MO</title>
-    <meta name="description" content="Premium storage buildings, garages, and outdoor structures in St. Louis. TuffShed & WoodMaster dealer. Browse our live inventory. Free quotes. Financing available.">
-    <meta name="keywords" content="storage buildings st louis, garages for sale st louis, backyard buildings, tuffshed dealer st louis, woodmaster, outdoor structures missouri">
+    <meta name="description" content="27 buildings IN STOCK! Premium storage buildings, garages, and outdoor structures in St. Louis. WoodMaster dealer. Browse our live inventory. Free quotes. Financing available.">
+    <meta name="keywords" content="storage buildings st louis, garages for sale st louis, backyard buildings, woodmaster, outdoor structures missouri, sheds near me">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Backyard Buildings STL | Premium Outdoor Structures">
-    <meta property="og:description" content="Browse our live inventory of storage buildings & garages. St. Louis's trusted dealer.">
+    <meta property="og:title" content="Backyard Buildings STL | 27 Buildings In Stock">
+    <meta property="og:description" content="Browse our live inventory of storage buildings & garages. St. Louis's trusted WoodMaster dealer.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
     
@@ -24,7 +24,7 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Backyard Buildings STL",
-        "description": "Premium storage buildings, garages, and outdoor structures in St. Louis",
+        "description": "Premium storage buildings, garages, and outdoor structures in St. Louis. 27 buildings in stock.",
         "telephone": "(636) 354-7406",
         "address": {
             "@type": "PostalAddress",
@@ -32,18 +32,8 @@
             "addressRegion": "MO",
             "addressCountry": "US"
         },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "38.6270",
-            "longitude": "-90.1994"
-        },
         "openingHours": "Mo-Sa 09:00-18:00",
-        "priceRange": "$$",
-        "image": "https://backyardbuildingsstl.com/images/logo.jpg",
-        "sameAs": [
-            "https://facebook.com/backyardbuildingsstl",
-            "https://instagram.com/backyardbuildingsstl"
-        ]
+        "priceRange": "$3,399 - $11,299"
     }
     </script>
     
@@ -64,6 +54,7 @@
             --danger: #ef4444;
             --warning: #eab308;
             --info: #3b82f6;
+            --purple: #a855f7;
             --radius: 12px;
             --radius-lg: 20px;
             --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
@@ -71,16 +62,8 @@
             --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
         body {
             font-family: 'Inter', -apple-system, sans-serif;
             background: var(--bg-primary);
@@ -89,20 +72,9 @@
             overflow-x: hidden;
         }
 
-        /* Utility Classes */
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        .section {
-            padding: 100px 0;
-        }
-
-        .section-dark {
-            background: var(--bg-secondary);
-        }
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
+        .section { padding: 100px 0; }
+        .section-dark { background: var(--bg-secondary); }
 
         /* Navigation */
         .nav {
@@ -114,9 +86,7 @@
             background: rgba(15, 15, 15, 0.95);
             backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--border);
-            transition: var(--transition);
         }
-
         .nav-inner {
             display: flex;
             align-items: center;
@@ -125,14 +95,12 @@
             max-width: 1400px;
             margin: 0 auto;
         }
-
         .nav-logo {
             display: flex;
             align-items: center;
             gap: 12px;
             text-decoration: none;
         }
-
         .nav-logo-icon {
             width: 48px;
             height: 48px;
@@ -143,59 +111,28 @@
             justify-content: center;
             font-size: 24px;
         }
-
         .nav-logo-text {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: 28px;
+            font-size: 24px;
             letter-spacing: 1px;
             color: var(--text-primary);
         }
-
-        .nav-logo-text span {
-            color: var(--accent);
-        }
-
+        .nav-logo-text span { color: var(--accent); }
         .nav-links {
             display: flex;
             align-items: center;
             gap: 40px;
             list-style: none;
         }
-
         .nav-links a {
             color: var(--text-secondary);
             text-decoration: none;
             font-weight: 500;
             font-size: 15px;
             transition: var(--transition);
-            position: relative;
         }
-
-        .nav-links a:hover {
-            color: var(--text-primary);
-        }
-
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--accent);
-            transition: var(--transition);
-        }
-
-        .nav-links a:hover::after {
-            width: 100%;
-        }
-
-        .nav-cta {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-        }
-
+        .nav-links a:hover { color: var(--text-primary); }
+        .nav-cta { display: flex; align-items: center; gap: 16px; }
         .nav-phone {
             display: flex;
             align-items: center;
@@ -203,13 +140,7 @@
             color: var(--text-primary);
             text-decoration: none;
             font-weight: 600;
-            font-size: 16px;
         }
-
-        .nav-phone svg {
-            color: var(--accent);
-        }
-
         .btn {
             display: inline-flex;
             align-items: center;
@@ -223,30 +154,26 @@
             border: none;
             transition: var(--transition);
         }
-
         .btn-primary {
             background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
             color: #000;
             box-shadow: 0 4px 20px var(--accent-glow);
         }
-
         .btn-primary:hover {
             transform: translateY(-2px);
             box-shadow: 0 8px 30px var(--accent-glow);
         }
-
         .btn-secondary {
             background: transparent;
             color: var(--text-primary);
             border: 2px solid var(--border);
         }
-
         .btn-secondary:hover {
             border-color: var(--accent);
             background: rgba(245, 158, 11, 0.1);
         }
 
-        /* Hero Section */
+        /* Hero */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -255,41 +182,34 @@
             padding-top: 100px;
             overflow: hidden;
         }
-
         .hero::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            top: 0; left: 0; right: 0; bottom: 0;
             background: 
                 radial-gradient(ellipse at 20% 50%, rgba(245, 158, 11, 0.15) 0%, transparent 50%),
                 radial-gradient(ellipse at 80% 80%, rgba(245, 158, 11, 0.1) 0%, transparent 40%);
             pointer-events: none;
         }
-
         .hero-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 80px;
             align-items: center;
         }
-
         .hero-badge {
             display: inline-flex;
             align-items: center;
             gap: 8px;
             padding: 8px 16px;
-            background: rgba(245, 158, 11, 0.1);
-            border: 1px solid rgba(245, 158, 11, 0.3);
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
             border-radius: 100px;
             font-size: 14px;
-            font-weight: 500;
-            color: var(--accent);
+            font-weight: 600;
+            color: var(--success);
             margin-bottom: 24px;
         }
-
         .hero-badge-dot {
             width: 8px;
             height: 8px;
@@ -297,81 +217,55 @@
             border-radius: 50%;
             animation: pulse 2s infinite;
         }
-
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.1); }
         }
-
         .hero h1 {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(48px, 8vw, 80px);
+            font-size: clamp(48px, 7vw, 72px);
             line-height: 0.95;
             letter-spacing: 2px;
             margin-bottom: 24px;
         }
-
-        .hero h1 span {
-            color: var(--accent);
-        }
-
+        .hero h1 span { color: var(--accent); }
         .hero-subtitle {
-            font-size: 20px;
+            font-size: 18px;
             color: var(--text-secondary);
             margin-bottom: 40px;
             max-width: 500px;
         }
-
-        .hero-actions {
-            display: flex;
-            gap: 16px;
-            margin-bottom: 60px;
-        }
-
-        .hero-stats {
-            display: flex;
-            gap: 48px;
-        }
-
-        .hero-stat {
-            text-align: left;
-        }
-
+        .hero-actions { display: flex; gap: 16px; margin-bottom: 60px; }
+        .hero-stats { display: flex; gap: 48px; }
+        .hero-stat { text-align: left; }
         .hero-stat-value {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 48px;
             color: var(--accent);
             line-height: 1;
         }
-
         .hero-stat-label {
             font-size: 14px;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 1px;
         }
-
-        .hero-visual {
-            position: relative;
-        }
-
+        .hero-visual { position: relative; }
         .hero-image-container {
             position: relative;
             border-radius: var(--radius-lg);
             overflow: hidden;
             box-shadow: var(--shadow-lg);
         }
-
         .hero-image {
             width: 100%;
-            height: 500px;
+            height: 450px;
             background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-secondary) 100%);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 120px;
+            font-size: 100px;
         }
-
         .hero-floating-card {
             position: absolute;
             background: var(--bg-card);
@@ -380,7 +274,6 @@
             padding: 16px 20px;
             box-shadow: var(--shadow-lg);
         }
-
         .hero-floating-card.top-right {
             top: -20px;
             right: -20px;
@@ -388,67 +281,60 @@
             align-items: center;
             gap: 12px;
         }
-
         .hero-floating-card.bottom-left {
             bottom: 40px;
             left: -30px;
         }
-
         .floating-badge {
             background: var(--success);
             color: #000;
             padding: 6px 12px;
             border-radius: 6px;
-            font-size: 13px;
+            font-size: 12px;
             font-weight: 700;
         }
-
         .floating-price {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: 32px;
+            font-size: 28px;
         }
 
-        .floating-price span {
-            font-size: 16px;
-            color: var(--text-muted);
-            font-family: 'Inter', sans-serif;
-        }
-
-        /* Inventory Section */
+        /* Inventory */
         .inventory-header {
             display: flex;
             justify-content: space-between;
             align-items: flex-end;
-            margin-bottom: 48px;
+            margin-bottom: 32px;
             flex-wrap: wrap;
             gap: 24px;
         }
-
         .section-title {
             font-family: 'Bebas Neue', sans-serif;
             font-size: clamp(36px, 5vw, 56px);
             letter-spacing: 1px;
         }
-
-        .section-title span {
-            color: var(--accent);
-        }
-
+        .section-title span { color: var(--accent); }
         .section-subtitle {
             color: var(--text-secondary);
-            font-size: 18px;
+            font-size: 16px;
             margin-top: 8px;
         }
-
-        /* Filters */
+        .inventory-count {
+            background: var(--success);
+            color: #000;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            display: inline-block;
+            margin-left: 12px;
+        }
         .filters {
             display: flex;
-            gap: 12px;
+            gap: 10px;
             flex-wrap: wrap;
         }
-
         .filter-btn {
-            padding: 12px 20px;
+            padding: 10px 18px;
             background: var(--bg-card);
             border: 1px solid var(--border);
             border-radius: var(--radius);
@@ -457,27 +343,27 @@
             font-weight: 500;
             cursor: pointer;
             transition: var(--transition);
-            display: flex;
-            align-items: center;
-            gap: 8px;
         }
-
-        .filter-btn:hover,
-        .filter-btn.active {
+        .filter-btn:hover, .filter-btn.active {
             border-color: var(--accent);
             color: var(--accent);
             background: rgba(245, 158, 11, 0.1);
         }
-
-        .filter-btn svg {
-            width: 16px;
-            height: 16px;
+        .filter-btn .count {
+            background: var(--bg-secondary);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 12px;
+            margin-left: 6px;
+        }
+        .filter-btn.active .count {
+            background: var(--accent);
+            color: #000;
         }
 
-        /* Inventory Grid */
         .inventory-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 24px;
         }
 
@@ -490,38 +376,27 @@
             transition: var(--transition);
             position: relative;
         }
-
         .building-card:hover {
-            transform: translateY(-8px);
+            transform: translateY(-6px);
             border-color: var(--accent);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
         }
-
         .building-card-image {
             position: relative;
-            height: 240px;
-            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+            height: 200px;
+            background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 80px;
-            overflow: hidden;
+            font-size: 64px;
         }
-
-        .building-card-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* Status Badges */
         .status-badge {
             position: absolute;
-            top: 16px;
-            left: 16px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            font-size: 12px;
+            top: 12px;
+            left: 12px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 11px;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -529,191 +404,108 @@
             align-items: center;
             gap: 6px;
         }
-
         .status-badge::before {
             content: '';
-            width: 8px;
-            height: 8px;
+            width: 6px;
+            height: 6px;
             border-radius: 50%;
         }
-
         .status-in-stock {
             background: rgba(34, 197, 94, 0.2);
             color: var(--success);
             border: 1px solid rgba(34, 197, 94, 0.3);
         }
-
         .status-in-stock::before {
             background: var(--success);
             animation: pulse 2s infinite;
         }
-
-        .status-sold {
-            background: rgba(239, 68, 68, 0.2);
-            color: var(--danger);
-            border: 1px solid rgba(239, 68, 68, 0.3);
+        .status-clearance {
+            background: rgba(168, 85, 247, 0.2);
+            color: var(--purple);
+            border: 1px solid rgba(168, 85, 247, 0.3);
         }
-
-        .status-sold::before {
-            background: var(--danger);
-        }
-
-        .status-coming-soon {
-            background: rgba(234, 179, 8, 0.2);
-            color: var(--warning);
-            border: 1px solid rgba(234, 179, 8, 0.3);
-        }
-
-        .status-coming-soon::before {
-            background: var(--warning);
-            animation: pulse 2s infinite;
-        }
-
-        .status-available {
-            background: rgba(59, 130, 246, 0.2);
-            color: var(--info);
-            border: 1px solid rgba(59, 130, 246, 0.3);
-        }
-
-        .status-available::before {
-            background: var(--info);
-        }
-
+        .status-clearance::before { background: var(--purple); }
         .building-card-brand {
             position: absolute;
-            top: 16px;
-            right: 16px;
+            top: 12px;
+            right: 12px;
             background: rgba(0, 0, 0, 0.7);
             backdrop-filter: blur(10px);
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 11px;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 10px;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
-
-        .building-card-content {
-            padding: 24px;
+        .building-card-content { padding: 20px; }
+        .building-card-type {
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
         }
-
         .building-card-title {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: 24px;
+            font-size: 22px;
             letter-spacing: 0.5px;
-            margin-bottom: 8px;
+            margin-bottom: 12px;
         }
-
-        .building-card-specs {
-            display: flex;
-            gap: 16px;
-            margin-bottom: 16px;
-        }
-
-        .building-card-spec {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            color: var(--text-secondary);
-            font-size: 14px;
-        }
-
-        .building-card-spec svg {
-            color: var(--accent);
-            width: 16px;
-            height: 16px;
-        }
-
         .building-card-features {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 20px;
+            gap: 6px;
+            margin-bottom: 16px;
         }
-
         .building-card-feature {
             background: var(--bg-secondary);
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 11px;
             color: var(--text-secondary);
         }
-
         .building-card-footer {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding-top: 20px;
+            padding-top: 16px;
             border-top: 1px solid var(--border);
         }
-
         .building-card-price {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: 32px;
+            font-size: 28px;
             color: var(--accent);
         }
-
-        .building-card-price .starting {
+        .building-card-price .monthly {
             font-size: 12px;
             font-family: 'Inter', sans-serif;
             color: var(--text-muted);
             display: block;
         }
-
-        .building-card-price .monthly {
-            font-size: 14px;
-            font-family: 'Inter', sans-serif;
-            color: var(--text-secondary);
-        }
-
         .building-card-action {
-            padding: 12px 24px;
+            padding: 10px 20px;
             background: transparent;
             border: 2px solid var(--accent);
             color: var(--accent);
             border-radius: var(--radius);
             font-weight: 600;
-            font-size: 14px;
+            font-size: 13px;
             cursor: pointer;
             transition: var(--transition);
         }
-
         .building-card-action:hover {
             background: var(--accent);
             color: #000;
         }
 
-        /* Sold Overlay */
-        .sold-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(to top, rgba(239, 68, 68, 0.9) 0%, transparent 100%);
-            padding: 40px 24px 20px;
-            text-align: center;
-        }
-
-        .sold-overlay-text {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 18px;
-            color: white;
-        }
-
-        .sold-overlay-cta {
-            color: white;
-            font-size: 14px;
-            text-decoration: underline;
-            cursor: pointer;
-        }
-
-        /* Features Section */
+        /* Features */
         .features-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 24px;
         }
-
         .feature-card {
             background: var(--bg-card);
             border: 1px solid var(--border);
@@ -722,12 +514,10 @@
             text-align: center;
             transition: var(--transition);
         }
-
         .feature-card:hover {
             border-color: var(--accent);
             transform: translateY(-4px);
         }
-
         .feature-icon {
             width: 64px;
             height: 64px;
@@ -739,89 +529,70 @@
             margin: 0 auto 20px;
             font-size: 32px;
         }
-
         .feature-title {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: 22px;
+            font-size: 20px;
             margin-bottom: 8px;
         }
-
         .feature-desc {
             color: var(--text-secondary);
             font-size: 14px;
         }
 
-        /* Financing Section */
+        /* Financing */
         .financing-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 60px;
             align-items: center;
         }
-
         .financing-cards {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 20px;
+            gap: 16px;
         }
-
         .financing-card {
             background: var(--bg-card);
             border: 1px solid var(--border);
             border-radius: var(--radius);
-            padding: 24px;
+            padding: 20px;
             text-align: center;
-            transition: var(--transition);
         }
-
-        .financing-card:hover {
-            border-color: var(--accent);
-        }
-
         .financing-card.featured {
             border-color: var(--accent);
             background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, var(--bg-card) 100%);
         }
-
         .financing-rate {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: 48px;
+            font-size: 42px;
             color: var(--accent);
         }
-
         .financing-label {
             color: var(--text-secondary);
-            font-size: 14px;
+            font-size: 13px;
             margin-top: 4px;
         }
 
-        /* CTA Section */
+        /* CTA */
         .cta-section {
             background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
             padding: 80px 0;
             text-align: center;
         }
-
         .cta-section h2 {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(36px, 5vw, 56px);
+            font-size: clamp(36px, 5vw, 52px);
             color: #000;
             margin-bottom: 16px;
         }
-
         .cta-section p {
             color: rgba(0, 0, 0, 0.7);
             font-size: 18px;
             margin-bottom: 32px;
         }
-
         .cta-section .btn {
             background: #000;
             color: var(--accent);
-        }
-
-        .cta-section .btn:hover {
-            background: var(--bg-primary);
         }
 
         /* Footer */
@@ -830,162 +601,61 @@
             padding: 60px 0 30px;
             border-top: 1px solid var(--border);
         }
-
         .footer-grid {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr 1fr;
             gap: 48px;
             margin-bottom: 48px;
         }
-
         .footer-brand p {
             color: var(--text-secondary);
             font-size: 14px;
             margin: 16px 0 24px;
             max-width: 300px;
         }
-
-        .footer-social {
-            display: flex;
-            gap: 12px;
-        }
-
-        .footer-social a {
-            width: 40px;
-            height: 40px;
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: var(--transition);
-        }
-
-        .footer-social a:hover {
-            border-color: var(--accent);
-            color: var(--accent);
-        }
-
         .footer-column h4 {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 18px;
             margin-bottom: 20px;
             color: var(--accent);
         }
-
-        .footer-column ul {
-            list-style: none;
-        }
-
-        .footer-column li {
-            margin-bottom: 12px;
-        }
-
+        .footer-column ul { list-style: none; }
+        .footer-column li { margin-bottom: 12px; }
         .footer-column a {
             color: var(--text-secondary);
             text-decoration: none;
             font-size: 14px;
             transition: var(--transition);
         }
-
-        .footer-column a:hover {
-            color: var(--text-primary);
-        }
-
+        .footer-column a:hover { color: var(--text-primary); }
         .footer-bottom {
             display: flex;
             justify-content: space-between;
-            align-items: center;
             padding-top: 30px;
             border-top: 1px solid var(--border);
             color: var(--text-muted);
             font-size: 14px;
         }
 
-        /* Mobile Menu */
-        .mobile-menu-btn {
-            display: none;
-            background: none;
-            border: none;
-            color: var(--text-primary);
-            font-size: 24px;
-            cursor: pointer;
-        }
-
         /* Responsive */
         @media (max-width: 1200px) {
-            .hero-grid {
-                grid-template-columns: 1fr;
-                gap: 60px;
-            }
-
-            .hero-visual {
-                order: -1;
-            }
-
-            .features-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .financing-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .footer-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+            .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+            .hero-visual { order: -1; }
+            .features-grid { grid-template-columns: repeat(2, 1fr); }
+            .financing-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
         }
-
         @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-
-            .mobile-menu-btn {
-                display: block;
-            }
-
-            .hero {
-                padding-top: 120px;
-            }
-
-            .hero-stats {
-                flex-direction: column;
-                gap: 24px;
-            }
-
-            .hero-actions {
-                flex-direction: column;
-            }
-
-            .inventory-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .features-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .financing-cards {
-                grid-template-columns: 1fr;
-            }
-
-            .footer-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .footer-bottom {
-                flex-direction: column;
-                gap: 16px;
-                text-align: center;
-            }
-
-            .section {
-                padding: 60px 0;
-            }
+            .nav-links { display: none; }
+            .hero { padding-top: 120px; }
+            .hero-stats { flex-wrap: wrap; gap: 24px; }
+            .hero-actions { flex-direction: column; }
+            .inventory-grid { grid-template-columns: 1fr; }
+            .features-grid { grid-template-columns: 1fr; }
+            .financing-cards { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
+            .section { padding: 60px 0; }
         }
     </style>
 </head>
@@ -997,49 +667,39 @@
                 <div class="nav-logo-icon">🏠</div>
                 <div class="nav-logo-text">BACKYARD BUILDINGS <span>STL</span></div>
             </a>
-            
             <ul class="nav-links">
                 <li><a href="#inventory">Inventory</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#financing">Financing</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            
             <div class="nav-cta">
-                <a href="tel:6363547406" class="nav-phone">
-                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
-                    (636) 354-7406
-                </a>
+                <a href="tel:6363547406" class="nav-phone">📞 (636) 354-7406</a>
                 <a href="#contact" class="btn btn-primary">Get a Quote</a>
             </div>
-
-            <button class="mobile-menu-btn">☰</button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero -->
     <section class="hero">
         <div class="container">
             <div class="hero-grid">
                 <div class="hero-content">
                     <div class="hero-badge">
                         <span class="hero-badge-dot"></span>
-                        Live Inventory Available
+                        27 Buildings In Stock — Updated Live
                     </div>
                     <h1>PREMIUM BACKYARD<br><span>BUILDINGS</span> IN STL</h1>
-                    <p class="hero-subtitle">Browse our live inventory of storage buildings, garages, and outdoor structures. TuffShed & WoodMaster dealer serving St. Louis and surrounding areas.</p>
+                    <p class="hero-subtitle">Browse our live inventory of WoodMaster storage buildings. Barns, utilities, gardens & more. Prices from $3,399 to $11,299. Financing available.</p>
                     
                     <div class="hero-actions">
-                        <a href="#inventory" class="btn btn-primary">
-                            Browse Inventory
-                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
-                        </a>
-                        <a href="#contact" class="btn btn-secondary">Schedule Visit</a>
+                        <a href="#inventory" class="btn btn-primary">Browse All 27 Buildings →</a>
+                        <a href="tel:6363547406" class="btn btn-secondary">Call Now</a>
                     </div>
 
                     <div class="hero-stats">
                         <div class="hero-stat">
-                            <div class="hero-stat-value">25+</div>
+                            <div class="hero-stat-value">27</div>
                             <div class="hero-stat-label">Buildings In Stock</div>
                         </div>
                         <div class="hero-stat">
@@ -1047,8 +707,8 @@
                             <div class="hero-stat-label">Financing Available</div>
                         </div>
                         <div class="hero-stat">
-                            <div class="hero-stat-value">500+</div>
-                            <div class="hero-stat-label">Happy Customers</div>
+                            <div class="hero-stat-value">$3.4K</div>
+                            <div class="hero-stat-label">Starting Price</div>
                         </div>
                     </div>
                 </div>
@@ -1058,11 +718,11 @@
                         <div class="hero-image">🏚️</div>
                         <div class="hero-floating-card top-right">
                             <span class="floating-badge">IN STOCK</span>
-                            <span class="floating-price">$4,299 <span>/mo from $89</span></span>
+                            <span class="floating-price">$4,199+</span>
                         </div>
                         <div class="hero-floating-card bottom-left">
-                            <div style="font-size: 14px; color: var(--text-secondary);">Trusted Dealer</div>
-                            <div style="font-family: 'Bebas Neue'; font-size: 20px;">TUFFSHED & WOODMASTER</div>
+                            <div style="font-size: 12px; color: var(--text-secondary);">Authorized Dealer</div>
+                            <div style="font-family: 'Bebas Neue'; font-size: 18px;">WOODMASTER</div>
                         </div>
                     </div>
                 </div>
@@ -1070,259 +730,42 @@
         </div>
     </section>
 
-    <!-- Inventory Section -->
+    <!-- Inventory -->
     <section id="inventory" class="section section-dark">
         <div class="container">
             <div class="inventory-header">
                 <div>
-                    <h2 class="section-title">BROWSE <span>INVENTORY</span></h2>
-                    <p class="section-subtitle">Real-time availability • Updated daily</p>
+                    <h2 class="section-title">LIVE <span>INVENTORY</span><span class="inventory-count">27 In Stock</span></h2>
+                    <p class="section-subtitle">Real buildings. Real prices. Updated daily.</p>
                 </div>
                 <div class="filters">
-                    <button class="filter-btn active">All Buildings</button>
-                    <button class="filter-btn">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
-                        In Stock
-                    </button>
-                    <button class="filter-btn">Barns</button>
-                    <button class="filter-btn">Gables</button>
-                    <button class="filter-btn">Garages</button>
+                    <button class="filter-btn active" data-filter="all">All<span class="count">27</span></button>
+                    <button class="filter-btn" data-filter="BARN">Barns<span class="count">8</span></button>
+                    <button class="filter-btn" data-filter="UTILITY">Utility<span class="count">8</span></button>
+                    <button class="filter-btn" data-filter="GARDEN">Garden<span class="count">6</span></button>
+                    <button class="filter-btn" data-filter="LEAN-TO">Lean-To<span class="count">2</span></button>
+                    <button class="filter-btn" data-filter="CLEARANCE">Clearance<span class="count">2</span></button>
                 </div>
             </div>
 
-            <div class="inventory-grid">
-                <!-- Building Card 1 - In Stock -->
-                <article class="building-card">
-                    <div class="building-card-image">
-                        🏠
-                        <span class="status-badge status-in-stock">In Stock</span>
-                        <span class="building-card-brand">TuffShed</span>
-                    </div>
-                    <div class="building-card-content">
-                        <h3 class="building-card-title">10×12 Classic Barn</h3>
-                        <div class="building-card-specs">
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10H3M21 6H3M21 14H3M21 18H3"/></svg>
-                                10' × 12'
-                            </span>
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-                                Barn Style
-                            </span>
-                        </div>
-                        <div class="building-card-features">
-                            <span class="building-card-feature">Double Doors</span>
-                            <span class="building-card-feature">2 Windows</span>
-                            <span class="building-card-feature">Loft</span>
-                        </div>
-                        <div class="building-card-footer">
-                            <div class="building-card-price">
-                                <span class="starting">Starting at</span>
-                                $4,299
-                                <span class="monthly">or $89/mo</span>
-                            </div>
-                            <button class="building-card-action">View Details</button>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Building Card 2 - In Stock -->
-                <article class="building-card">
-                    <div class="building-card-image">
-                        🏠
-                        <span class="status-badge status-in-stock">In Stock</span>
-                        <span class="building-card-brand">WoodMaster</span>
-                    </div>
-                    <div class="building-card-content">
-                        <h3 class="building-card-title">12×16 Premium Gable</h3>
-                        <div class="building-card-specs">
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10H3M21 6H3M21 14H3M21 18H3"/></svg>
-                                12' × 16'
-                            </span>
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-                                Gable Style
-                            </span>
-                        </div>
-                        <div class="building-card-features">
-                            <span class="building-card-feature">Roll-Up Door</span>
-                            <span class="building-card-feature">3 Windows</span>
-                            <span class="building-card-feature">Workbench</span>
-                        </div>
-                        <div class="building-card-footer">
-                            <div class="building-card-price">
-                                <span class="starting">Starting at</span>
-                                $6,499
-                                <span class="monthly">or $135/mo</span>
-                            </div>
-                            <button class="building-card-action">View Details</button>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Building Card 3 - SOLD -->
-                <article class="building-card">
-                    <div class="building-card-image">
-                        🏠
-                        <span class="status-badge status-sold">Sold</span>
-                        <span class="building-card-brand">TuffShed</span>
-                        <div class="sold-overlay">
-                            <div class="sold-overlay-text">This one found a home!</div>
-                            <span class="sold-overlay-cta">Order yours today →</span>
-                        </div>
-                    </div>
-                    <div class="building-card-content">
-                        <h3 class="building-card-title">8×10 Compact Barn</h3>
-                        <div class="building-card-specs">
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10H3M21 6H3M21 14H3M21 18H3"/></svg>
-                                8' × 10'
-                            </span>
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-                                Barn Style
-                            </span>
-                        </div>
-                        <div class="building-card-features">
-                            <span class="building-card-feature">Single Door</span>
-                            <span class="building-card-feature">1 Window</span>
-                        </div>
-                        <div class="building-card-footer">
-                            <div class="building-card-price">
-                                <span class="starting">Was</span>
-                                $3,199
-                            </div>
-                            <button class="building-card-action">Order Similar</button>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Building Card 4 - Coming Soon -->
-                <article class="building-card">
-                    <div class="building-card-image">
-                        🏠
-                        <span class="status-badge status-coming-soon">Coming Soon</span>
-                        <span class="building-card-brand">WoodMaster</span>
-                    </div>
-                    <div class="building-card-content">
-                        <h3 class="building-card-title">14×20 Deluxe Garage</h3>
-                        <div class="building-card-specs">
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10H3M21 6H3M21 14H3M21 18H3"/></svg>
-                                14' × 20'
-                            </span>
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-                                Garage
-                            </span>
-                        </div>
-                        <div class="building-card-features">
-                            <span class="building-card-feature">8' Garage Door</span>
-                            <span class="building-card-feature">Side Entry</span>
-                            <span class="building-card-feature">Electrical Ready</span>
-                        </div>
-                        <div class="building-card-footer">
-                            <div class="building-card-price">
-                                <span class="starting">Expected</span>
-                                $9,999
-                                <span class="monthly">or $208/mo</span>
-                            </div>
-                            <button class="building-card-action">Reserve Now</button>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Building Card 5 - Available to Order -->
-                <article class="building-card">
-                    <div class="building-card-image">
-                        🏠
-                        <span class="status-badge status-available">Available to Order</span>
-                        <span class="building-card-brand">TuffShed</span>
-                    </div>
-                    <div class="building-card-content">
-                        <h3 class="building-card-title">10×14 Studio Lean-To</h3>
-                        <div class="building-card-specs">
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10H3M21 6H3M21 14H3M21 18H3"/></svg>
-                                10' × 14'
-                            </span>
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-                                Lean-To
-                            </span>
-                        </div>
-                        <div class="building-card-features">
-                            <span class="building-card-feature">Modern Design</span>
-                            <span class="building-card-feature">Large Windows</span>
-                            <span class="building-card-feature">Office Ready</span>
-                        </div>
-                        <div class="building-card-footer">
-                            <div class="building-card-price">
-                                <span class="starting">Starting at</span>
-                                $5,799
-                                <span class="monthly">or $120/mo</span>
-                            </div>
-                            <button class="building-card-action">Get Quote</button>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Building Card 6 - In Stock -->
-                <article class="building-card">
-                    <div class="building-card-image">
-                        🏠
-                        <span class="status-badge status-in-stock">In Stock</span>
-                        <span class="building-card-brand">WoodMaster</span>
-                    </div>
-                    <div class="building-card-content">
-                        <h3 class="building-card-title">12×12 Classic Gable</h3>
-                        <div class="building-card-specs">
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10H3M21 6H3M21 14H3M21 18H3"/></svg>
-                                12' × 12'
-                            </span>
-                            <span class="building-card-spec">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
-                                Gable Style
-                            </span>
-                        </div>
-                        <div class="building-card-features">
-                            <span class="building-card-feature">Double Doors</span>
-                            <span class="building-card-feature">2 Windows</span>
-                            <span class="building-card-feature">Flower Box</span>
-                        </div>
-                        <div class="building-card-footer">
-                            <div class="building-card-price">
-                                <span class="starting">Starting at</span>
-                                $5,199
-                                <span class="monthly">or $108/mo</span>
-                            </div>
-                            <button class="building-card-action">View Details</button>
-                        </div>
-                    </div>
-                </article>
-            </div>
-
-            <div style="text-align: center; margin-top: 48px;">
-                <a href="#contact" class="btn btn-primary">View All Inventory</a>
+            <div class="inventory-grid" id="inventoryGrid">
+                <!-- Cards will be injected by JavaScript -->
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
+    <!-- Features -->
     <section id="about" class="section">
         <div class="container">
             <div style="text-align: center; margin-bottom: 60px;">
                 <h2 class="section-title">WHY CHOOSE <span>US</span></h2>
-                <p class="section-subtitle">Your trusted local dealer for premium outdoor structures</p>
+                <p class="section-subtitle">Your trusted local WoodMaster dealer</p>
             </div>
-
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">🏆</div>
                     <h3 class="feature-title">AUTHORIZED DEALER</h3>
-                    <p class="feature-desc">Official TuffShed & WoodMaster dealer with manufacturer warranties</p>
+                    <p class="feature-desc">Official WoodMaster dealer with full manufacturer warranties</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">🚚</div>
@@ -1331,44 +774,41 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">💰</div>
-                    <h3 class="feature-title">FINANCING OPTIONS</h3>
-                    <p class="feature-desc">0% APR available. Rent-to-own options. No credit needed.</p>
+                    <h3 class="feature-title">FINANCING</h3>
+                    <p class="feature-desc">0% APR available. Rent-to-own. No credit check options.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">⭐</div>
-                    <h3 class="feature-title">5-STAR SERVICE</h3>
-                    <p class="feature-desc">500+ happy customers. Family-owned & operated since 2020.</p>
+                    <h3 class="feature-title">LOCAL SERVICE</h3>
+                    <p class="feature-desc">Family-owned. We answer our phone. Real people.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Financing Section -->
+    <!-- Financing -->
     <section id="financing" class="section section-dark">
         <div class="container">
             <div class="financing-grid">
                 <div>
                     <h2 class="section-title">FLEXIBLE <span>FINANCING</span></h2>
-                    <p class="section-subtitle" style="margin-top: 16px; margin-bottom: 32px;">Get your building today with payments that fit your budget. Multiple options available — find the right one for you.</p>
-                    
+                    <p class="section-subtitle" style="margin: 16px 0 32px;">Get your building today with payments that fit your budget.</p>
                     <ul style="list-style: none; margin-bottom: 32px;">
-                        <li style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px; color: var(--text-secondary);">
+                        <li style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; color: var(--text-secondary);">
                             <span style="color: var(--success);">✓</span> Quick approval process
                         </li>
-                        <li style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px; color: var(--text-secondary);">
+                        <li style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; color: var(--text-secondary);">
                             <span style="color: var(--success);">✓</span> No prepayment penalties
                         </li>
-                        <li style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px; color: var(--text-secondary);">
+                        <li style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px; color: var(--text-secondary);">
                             <span style="color: var(--success);">✓</span> Options for all credit types
                         </li>
                         <li style="display: flex; align-items: center; gap: 12px; color: var(--text-secondary);">
                             <span style="color: var(--success);">✓</span> Rent-to-own available
                         </li>
                     </ul>
-
-                    <a href="#contact" class="btn btn-primary">Check Your Rate</a>
+                    <a href="tel:6363547406" class="btn btn-primary">Check Your Rate</a>
                 </div>
-
                 <div class="financing-cards">
                     <div class="financing-card featured">
                         <div class="financing-rate">0%</div>
@@ -1380,7 +820,7 @@
                     </div>
                     <div class="financing-card">
                         <div class="financing-rate">RTO</div>
-                        <div class="financing-label">Rent-to-Own Available</div>
+                        <div class="financing-label">Rent-to-Own</div>
                     </div>
                     <div class="financing-card">
                         <div class="financing-rate">$0</div>
@@ -1391,16 +831,13 @@
         </div>
     </section>
 
-    <!-- CTA Section -->
+    <!-- CTA -->
     <section id="contact" class="cta-section">
         <div class="container">
             <h2>READY TO SEE THEM IN PERSON?</h2>
-            <p>Visit our display lot or give us a call. We're here to help you find the perfect building.</p>
+            <p>Visit our display lot or give us a call. We're here to help.</p>
             <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-                <a href="tel:6363547406" class="btn">
-                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
-                    (636) 354-7406
-                </a>
+                <a href="tel:6363547406" class="btn">📞 (636) 354-7406</a>
                 <a href="#" class="btn" style="background: transparent; border: 2px solid #000;">Get Directions</a>
             </div>
         </div>
@@ -1415,82 +852,149 @@
                         <div class="nav-logo-icon">🏠</div>
                         <div class="nav-logo-text">BACKYARD BUILDINGS <span>STL</span></div>
                     </a>
-                    <p>St. Louis's trusted source for premium storage buildings, garages, and outdoor structures. TuffShed & WoodMaster authorized dealer.</p>
-                    <div class="footer-social">
-                        <a href="#">📘</a>
-                        <a href="#">📸</a>
-                        <a href="#">▶️</a>
-                    </div>
+                    <p>St. Louis's source for premium WoodMaster storage buildings. 27 buildings in stock. Financing available.</p>
                 </div>
-
                 <div class="footer-column">
                     <h4>QUICK LINKS</h4>
                     <ul>
                         <li><a href="#inventory">Browse Inventory</a></li>
-                        <li><a href="#financing">Financing Options</a></li>
+                        <li><a href="#financing">Financing</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-
                 <div class="footer-column">
                     <h4>BUILDINGS</h4>
                     <ul>
                         <li><a href="#">Barn Style</a></li>
-                        <li><a href="#">Gable Style</a></li>
+                        <li><a href="#">Utility</a></li>
+                        <li><a href="#">Garden</a></li>
                         <li><a href="#">Lean-To</a></li>
-                        <li><a href="#">Garages</a></li>
-                        <li><a href="#">Custom Orders</a></li>
+                        <li><a href="#">Greenhouse</a></li>
                     </ul>
                 </div>
-
                 <div class="footer-column">
                     <h4>CONTACT</h4>
                     <ul>
                         <li><a href="tel:6363547406">(636) 354-7406</a></li>
-                        <li><a href="mailto:info@backyardbuildingsstl.com">info@backyardbuildingsstl.com</a></li>
                         <li style="color: var(--text-secondary);">St. Louis, MO</li>
                         <li style="color: var(--text-secondary);">Mon-Sat: 9am-6pm</li>
                     </ul>
                 </div>
             </div>
-
             <div class="footer-bottom">
                 <p>© 2026 Backyard Buildings STL. All rights reserved.</p>
-                <p>Authorized TuffShed & WoodMaster Dealer</p>
+                <p>Authorized WoodMaster Dealer</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Smooth scroll for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-            });
-        });
+    // Inventory Data - 27 Real Buildings
+    const inventory = [
+        { id: "WM306113", type: "BARN", size: "10×14", price: 5499, features: ["Double Doors", "Loft Ready", "Windows"] },
+        { id: "WM400027", type: "BARN", size: "10×14", price: 5499, features: ["Double Doors", "Loft Ready", "Windows"] },
+        { id: "WM400108", type: "BARN", size: "12×24", price: 11299, features: ["Double Doors", "Loft", "Workshop Ready"], highlight: true },
+        { id: "WM400369", type: "BARN", size: "12×24", price: 10399, features: ["Double Doors", "Loft", "2 Windows"] },
+        { id: "WM400381", type: "BARN", size: "12×16", price: 6799, features: ["Double Doors", "Loft Ready", "2 Windows"] },
+        { id: "WM400533", type: "BARN", size: "8×12", price: 4199, features: ["Double Doors", "Window", "Compact"] },
+        { id: "WM307872", type: "BARN", size: "10×12", price: 4589, features: ["Double Doors", "Window"] },
+        { id: "WM400657", type: "BARN", size: "12×24", price: 11299, features: ["Double Doors", "Loft", "Premium"], highlight: true },
+        { id: "WM302924", type: "UTILITY", size: "10×14", price: 5199, features: ["Side Door", "2 Windows", "Shelving Ready"] },
+        { id: "WM307777", type: "UTILITY", size: "10×16", price: 5899, features: ["Side Door", "2 Windows", "Workbench"] },
+        { id: "WM308332", type: "UTILITY", size: "12×16", price: 6899, features: ["Double Doors", "3 Windows", "Workshop"] },
+        { id: "WM308457", type: "UTILITY", size: "10×20", price: 7199, features: ["Double Doors", "3 Windows", "Extra Deep"] },
+        { id: "WM308458", type: "UTILITY", size: "8×12", price: 3999, features: ["Side Door", "Window", "Budget Friendly"] },
+        { id: "WM400030", type: "UTILITY", size: "10×16", price: 5699, features: ["Side Door", "2 Windows"] },
+        { id: "WM400375", type: "UTILITY", size: "8×12", price: 3999, features: ["Side Door", "Window", "Starter"] },
+        { id: "WM308729", type: "UTILITY", size: "10×12", price: 4699, features: ["Side Door", "Window"] },
+        { id: "WM400330", type: "LEAN-TO", size: "6×12", price: 3399, features: ["Modern Design", "Space Saver"] },
+        { id: "WM400473", type: "LEAN-TO", size: "6×12", price: 3399, features: ["Modern Design", "Side Yard Perfect"] },
+        { id: "WM155301", type: "GARDEN", size: "10×12", price: 5199, features: ["Decorative Trim", "Flower Box"] },
+        { id: "WM155527", type: "GARDEN", size: "10×16", price: 6299, features: ["Decorative Trim", "Double Windows"] },
+        { id: "WM302814", type: "GARDEN", size: "10×12", price: 5199, features: ["Decorative Trim", "Classic Look"] },
+        { id: "WM400034", type: "GARDEN", size: "10×16", price: 6299, features: ["Decorative Trim", "Window Box"] },
+        { id: "WM400310", type: "GARDEN", size: "10×12", price: 5499, features: ["Premium Trim", "Upgraded"] },
+        { id: "WM400568", type: "GARDEN", size: "8×12", price: 4499, features: ["Decorative Trim", "Compact"] },
+        { id: "WM307778", type: "GREENHOUSE", size: "8×12", price: 5999, features: ["Polycarbonate", "Ventilation", "Year-Round"] },
+        { id: "WM143725R1", type: "UTILITY", size: "10×12", price: 4409, features: ["Return Special", "Great Condition"], clearance: true },
+        { id: "WM157538R1", type: "TOOL", size: "8×12", price: 3509, features: ["Return Special", "Best Value"], clearance: true }
+    ];
 
-        // Filter buttons
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-            });
-        });
+    const typeNames = {
+        'BARN': 'Barn Style',
+        'UTILITY': 'Utility',
+        'GARDEN': 'Garden',
+        'LEAN-TO': 'Lean-To',
+        'GREENHOUSE': 'Greenhouse',
+        'TOOL': 'Tool Storage'
+    };
 
-        // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('.nav');
-            if (window.scrollY > 50) {
-                nav.style.background = 'rgba(15, 15, 15, 0.98)';
-            } else {
-                nav.style.background = 'rgba(15, 15, 15, 0.95)';
-            }
+    const typeEmojis = {
+        'BARN': '🏚️',
+        'UTILITY': '🏠',
+        'GARDEN': '🌸',
+        'LEAN-TO': '📐',
+        'GREENHOUSE': '🌿',
+        'TOOL': '🔧'
+    };
+
+    function renderInventory(filter = 'all') {
+        const grid = document.getElementById('inventoryGrid');
+        let filtered = inventory;
+        
+        if (filter === 'CLEARANCE') {
+            filtered = inventory.filter(b => b.clearance);
+        } else if (filter !== 'all') {
+            filtered = inventory.filter(b => b.type === filter);
+        }
+
+        grid.innerHTML = filtered.map(building => `
+            <article class="building-card">
+                <div class="building-card-image">
+                    ${typeEmojis[building.type] || '🏠'}
+                    <span class="status-badge ${building.clearance ? 'status-clearance' : 'status-in-stock'}">
+                        ${building.clearance ? 'Clearance' : 'In Stock'}
+                    </span>
+                    <span class="building-card-brand">WoodMaster</span>
+                </div>
+                <div class="building-card-content">
+                    <div class="building-card-type">${typeNames[building.type] || building.type}</div>
+                    <h3 class="building-card-title">${building.size} ${typeNames[building.type] || building.type}</h3>
+                    <div class="building-card-features">
+                        ${building.features.map(f => `<span class="building-card-feature">${f}</span>`).join('')}
+                    </div>
+                    <div class="building-card-footer">
+                        <div class="building-card-price">
+                            $${building.price.toLocaleString()}
+                            <span class="monthly">or ~$${Math.round(building.price / 48)}/mo</span>
+                        </div>
+                        <button class="building-card-action" onclick="alert('Call (636) 354-7406 to schedule a visit!')">View</button>
+                    </div>
+                </div>
+            </article>
+        `).join('');
+    }
+
+    // Filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            renderInventory(this.dataset.filter);
         });
+    });
+
+    // Initial render
+    renderInventory();
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
     </script>
 </body>
 </html>

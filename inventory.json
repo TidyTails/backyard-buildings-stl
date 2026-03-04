@@ -1,0 +1,277 @@
+{
+  "lastUpdated": "2026-03-04T17:00:00-06:00",
+  "buildings": [
+    {
+      "id": "WM306113",
+      "type": "BARN",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 14,
+      "price": 5499,
+      "status": "in-stock",
+      "features": ["Double Doors", "Loft Ready", "Window Package"]
+    },
+    {
+      "id": "WM400027",
+      "type": "BARN",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 14,
+      "price": 5499,
+      "status": "in-stock",
+      "features": ["Double Doors", "Loft Ready", "Window Package"]
+    },
+    {
+      "id": "WM400108",
+      "type": "BARN",
+      "brand": "WoodMaster",
+      "width": 12,
+      "length": 24,
+      "price": 11299,
+      "status": "in-stock",
+      "features": ["Double Doors", "Loft", "3 Windows", "Workshop Ready"]
+    },
+    {
+      "id": "WM400369",
+      "type": "BARN",
+      "brand": "WoodMaster",
+      "width": 12,
+      "length": 24,
+      "price": 10399,
+      "status": "in-stock",
+      "features": ["Double Doors", "Loft", "2 Windows"]
+    },
+    {
+      "id": "WM400381",
+      "type": "BARN",
+      "brand": "WoodMaster",
+      "width": 12,
+      "length": 16,
+      "price": 6799,
+      "status": "in-stock",
+      "features": ["Double Doors", "Loft Ready", "2 Windows"]
+    },
+    {
+      "id": "WM400533",
+      "type": "BARN",
+      "brand": "WoodMaster",
+      "width": 8,
+      "length": 12,
+      "price": 4199,
+      "status": "in-stock",
+      "features": ["Double Doors", "Window"]
+    },
+    {
+      "id": "WM307872",
+      "type": "BARN",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 12,
+      "price": 4589,
+      "status": "in-stock",
+      "features": ["Double Doors", "Window", "Compact Size"]
+    },
+    {
+      "id": "WM400657",
+      "type": "BARN",
+      "brand": "WoodMaster",
+      "width": 12,
+      "length": 24,
+      "price": 11299,
+      "status": "in-stock",
+      "features": ["Double Doors", "Loft", "3 Windows", "Premium"]
+    },
+    {
+      "id": "WM302924",
+      "type": "UTILITY",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 14,
+      "price": 5199,
+      "status": "in-stock",
+      "features": ["Side Door", "2 Windows", "Shelving Ready"]
+    },
+    {
+      "id": "WM307777",
+      "type": "UTILITY",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 16,
+      "price": 5899,
+      "status": "in-stock",
+      "features": ["Side Door", "2 Windows", "Workbench"]
+    },
+    {
+      "id": "WM308332",
+      "type": "UTILITY",
+      "brand": "WoodMaster",
+      "width": 12,
+      "length": 16,
+      "price": 6899,
+      "status": "in-stock",
+      "features": ["Double Doors", "3 Windows", "Workshop Ready"]
+    },
+    {
+      "id": "WM308457",
+      "type": "UTILITY",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 20,
+      "price": 7199,
+      "status": "in-stock",
+      "features": ["Double Doors", "3 Windows", "Extra Deep"]
+    },
+    {
+      "id": "WM308458",
+      "type": "UTILITY",
+      "brand": "WoodMaster",
+      "width": 8,
+      "length": 12,
+      "price": 3999,
+      "status": "in-stock",
+      "features": ["Side Door", "Window", "Budget Friendly"]
+    },
+    {
+      "id": "WM400030",
+      "type": "UTILITY",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 16,
+      "price": 5699,
+      "status": "in-stock",
+      "features": ["Side Door", "2 Windows", "Shelving"]
+    },
+    {
+      "id": "WM400375",
+      "type": "UTILITY",
+      "brand": "WoodMaster",
+      "width": 8,
+      "length": 12,
+      "price": 3999,
+      "status": "in-stock",
+      "features": ["Side Door", "Window", "Starter Size"]
+    },
+    {
+      "id": "WM308729",
+      "type": "UTILITY",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 12,
+      "price": 4699,
+      "status": "in-stock",
+      "features": ["Side Door", "Window", "Compact"]
+    },
+    {
+      "id": "WM400330",
+      "type": "LEAN-TO",
+      "brand": "WoodMaster",
+      "width": 6,
+      "length": 12,
+      "price": 3399,
+      "status": "in-stock",
+      "features": ["Modern Design", "Space Saver", "Fence Line Ready"]
+    },
+    {
+      "id": "WM400473",
+      "type": "LEAN-TO",
+      "brand": "WoodMaster",
+      "width": 6,
+      "length": 12,
+      "price": 3399,
+      "status": "in-stock",
+      "features": ["Modern Design", "Space Saver", "Side Yard Perfect"]
+    },
+    {
+      "id": "WM155301",
+      "type": "GARDEN",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 12,
+      "price": 5199,
+      "status": "in-stock",
+      "features": ["Decorative Trim", "Flower Box", "Charming Style"]
+    },
+    {
+      "id": "WM155527",
+      "type": "GARDEN",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 16,
+      "price": 6299,
+      "status": "in-stock",
+      "features": ["Decorative Trim", "Double Windows", "Cottage Style"]
+    },
+    {
+      "id": "WM302814",
+      "type": "GARDEN",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 12,
+      "price": 5199,
+      "status": "in-stock",
+      "features": ["Decorative Trim", "Flower Box", "Classic Look"]
+    },
+    {
+      "id": "WM400034",
+      "type": "GARDEN",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 16,
+      "price": 6299,
+      "status": "in-stock",
+      "features": ["Decorative Trim", "Window Box", "Statement Piece"]
+    },
+    {
+      "id": "WM400310",
+      "type": "GARDEN",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 12,
+      "price": 5499,
+      "status": "in-stock",
+      "features": ["Premium Trim", "Flower Box", "Upgraded"]
+    },
+    {
+      "id": "WM400568",
+      "type": "GARDEN",
+      "brand": "WoodMaster",
+      "width": 8,
+      "length": 12,
+      "price": 4499,
+      "status": "in-stock",
+      "features": ["Decorative Trim", "Window", "Compact Garden"]
+    },
+    {
+      "id": "WM307778",
+      "type": "GREENHOUSE",
+      "brand": "WoodMaster",
+      "width": 8,
+      "length": 12,
+      "price": 5999,
+      "status": "in-stock",
+      "features": ["Polycarbonate Panels", "Ventilation", "Year-Round Growing"]
+    },
+    {
+      "id": "WM143725R1",
+      "type": "UTILITY",
+      "brand": "WoodMaster",
+      "width": 10,
+      "length": 12,
+      "price": 4409,
+      "status": "in-stock",
+      "features": ["Return Special", "Great Condition", "Clearance Price"],
+      "badge": "CLEARANCE"
+    },
+    {
+      "id": "WM157538R1",
+      "type": "TOOL",
+      "brand": "WoodMaster",
+      "width": 8,
+      "length": 12,
+      "price": 3509,
+      "status": "in-stock",
+      "features": ["Return Special", "Tool Storage", "Best Value"],
+      "badge": "CLEARANCE"
+    }
+  ]
+}
