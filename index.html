@@ -446,6 +446,12 @@
             background: var(--ocean);
             color: white;
         }
+        .badge-sold {
+            background: #dc2626;
+            color: white;
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
         .card-color {
             position: absolute;
             bottom: 16px;
@@ -988,7 +994,7 @@
         { id: "WM-400369", type: "BARN", size: "12×24", color: "Dark Brown", price: 10399, features: ["Gambrel Roof", "Loft Included", "Premium"], photo: "photos/file_122---e75bd8ee-a7cc-4ddc-b621-c5c5d67d4830.jpg", highlight: true },
         { id: "155301", type: "UTILITY", size: "10×12", color: "Blue", price: 4699, features: ["Double Doors", "Window"], photo: "photos/utility-155301.jpg" },
         { id: "157538", type: "TOOL", size: "8×12", color: "Brown", price: 3509, features: ["Compact", "Tool Shed"], clearance: true, preowned: true, photo: "photos/tool-157538.jpg" },
-        { id: "143725", type: "UTILITY", size: "10×12", color: "Charcoal", price: 4409, features: ["Garage Door", "Gambrel Roof"], clearance: true, photo: "photos/file_139---7a377e53-c5c3-419b-9be7-b48738476309.jpg" },
+        { id: "143725", type: "UTILITY", size: "10×12", color: "Charcoal", price: 4409, features: ["Garage Door", "Gambrel Roof"], clearance: true, sold: true, photo: "photos/utility-143725.jpg" },
         { id: "WM-400657", type: "GARAGE", size: "12×24", color: "Charcoal", price: 11299, features: ["Gambrel Roof", "Loft Included", "Premium"], highlight: true, photo: "photos/barn-garage-WM400657.jpg" },
         { id: "400108", type: "GARAGE", size: "12×24", color: "Taupe", price: 11299, features: ["Gambrel Roof", "Loft Included", "Garage Door"], highlight: true, photo: "photos/file_140---3d563f98-8363-494a-a62d-0b3f2ac16b34.jpg" },
         { id: "308332", type: "UTILITY", size: "12×16", color: "Navy Blue", price: 6899, features: ["Double Doors", "Windows", "Workshop"], photo: "photos/file_146---c15d87e7-a121-43c6-b232-9b6e02ebdc0f.jpg" },
@@ -1029,8 +1035,8 @@
             <article class="building-card">
                 <div class="building-card-image" ${building.photo ? `style="background: none;"` : ''}>
                     ${building.photo ? `<img src="${building.photo}" alt="${building.size} ${typeNames[building.type]}">` : '🏠'}
-                    <span class="card-badge ${building.clearance ? 'badge-clearance' : 'badge-stock'}">
-                        ${building.clearance ? 'Clearance' : 'In Stock'}
+                    <span class="card-badge ${building.sold ? 'badge-sold' : building.clearance ? 'badge-clearance' : 'badge-stock'}">
+                        ${building.sold ? '🔴 SOLD' : building.clearance ? 'Clearance' : 'In Stock'}
                     </span>
                     ${building.color && building.color !== 'Unknown' ? `<span class="card-color">${building.color}</span>` : ''}
                 </div>
