@@ -17,6 +17,78 @@
     <meta name="twitter:description" content="Premium storage buildings ready for delivery in St. Louis. Financing available.">
     <meta name="twitter:image" content="https://backyardbuildingsstl.com/photos/file_122---e75bd8ee-a7cc-4ddc-b621-c5c5d67d4830.jpg">
     
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://backyardbuildingsstl.com/">
+    
+    <!-- Structured Data - LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Backyard Buildings STL",
+      "description": "Authorized WoodMaster dealer offering premium storage buildings, barns, garages, and custom sheds in St. Louis. 23 buildings in stock. Free delivery and financing available.",
+      "url": "https://backyardbuildingsstl.com",
+      "telephone": "+1-636-354-7406",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5520 Westwood Dr",
+        "addressLocality": "Saint Charles",
+        "addressRegion": "MO",
+        "postalCode": "63303",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 38.7881,
+        "longitude": -90.4974
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 38.7881,
+          "longitude": -90.4974
+        },
+        "geoRadius": "30 mi"
+      },
+      "priceRange": "$3,509 - $11,299",
+      "openingHours": "Mo-Sa 09:00-17:00",
+      "sameAs": [
+        "https://www.instagram.com/reddshedredemption"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Storage Buildings & Garages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Storage Sheds",
+              "description": "Classic designs for yard equipment, tools, and seasonal storage"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Detached Garages",
+              "description": "Single and double-car garages with optional workshops"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Barns",
+              "description": "Gambrel roof barns with loft storage"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
     <!-- Favicon (shed emoji) -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
     
@@ -445,12 +517,6 @@
         .badge-clearance {
             background: var(--ocean);
             color: white;
-        }
-        .badge-sold {
-            background: #dc2626;
-            color: white;
-            font-weight: 700;
-            font-size: 0.95rem;
         }
         .card-color {
             position: absolute;
@@ -954,7 +1020,7 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#inventory">Browse Inventory</a></li>
-                        <li><a href="#">Financing</a></li>
+                        <li><a href="calculator.html">Payment Calculator</a></li>
                         <li><a href="#">About Us</a></li>
                     </ul>
                 </div>
@@ -994,7 +1060,7 @@
         { id: "WM-400369", type: "BARN", size: "12×24", color: "Dark Brown", price: 10399, features: ["Gambrel Roof", "Loft Included", "Premium"], photo: "photos/file_122---e75bd8ee-a7cc-4ddc-b621-c5c5d67d4830.jpg", highlight: true },
         { id: "155301", type: "UTILITY", size: "10×12", color: "Blue", price: 4699, features: ["Double Doors", "Window"], photo: "photos/utility-155301.jpg" },
         { id: "157538", type: "TOOL", size: "8×12", color: "Brown", price: 3509, features: ["Compact", "Tool Shed"], clearance: true, preowned: true, photo: "photos/tool-157538.jpg" },
-        { id: "143725", type: "UTILITY", size: "10×12", color: "Charcoal", price: 4409, features: ["Garage Door", "Gambrel Roof"], clearance: true, sold: true, photo: "photos/utility-143725.jpg" },
+        { id: "143725", type: "UTILITY", size: "10×12", color: "Charcoal", price: 4409, features: ["Garage Door", "Gambrel Roof"], clearance: true, photo: "photos/file_139---7a377e53-c5c3-419b-9be7-b48738476309.jpg" },
         { id: "WM-400657", type: "GARAGE", size: "12×24", color: "Charcoal", price: 11299, features: ["Gambrel Roof", "Loft Included", "Premium"], highlight: true, photo: "photos/barn-garage-WM400657.jpg" },
         { id: "400108", type: "GARAGE", size: "12×24", color: "Taupe", price: 11299, features: ["Gambrel Roof", "Loft Included", "Garage Door"], highlight: true, photo: "photos/file_140---3d563f98-8363-494a-a62d-0b3f2ac16b34.jpg" },
         { id: "308332", type: "UTILITY", size: "12×16", color: "Navy Blue", price: 6899, features: ["Double Doors", "Windows", "Workshop"], photo: "photos/file_146---c15d87e7-a121-43c6-b232-9b6e02ebdc0f.jpg" },
@@ -1009,7 +1075,7 @@
         { id: "WM-400568", type: "GARDEN", size: "8×12", color: "Unknown", price: 4499, features: ["Decorative Trim", "Compact"], photo: "photos/garden-WM400568.jpg" },
         { id: "308458", type: "UTILITY", size: "8×12", color: "White/Cream", price: 3999, features: ["Side Door", "Budget Friendly"], photo: "photos/utility-308458.jpg" },
         { id: "WM-400375", type: "UTILITY", size: "8×12", color: "Green", price: 3999, features: ["Side Door", "Starter"], photo: "photos/utility-WM400375.jpg" },
-        { id: "308729", type: "UTILITY", size: "10×12", color: "Unknown", price: 4699, features: ["Side Door", "Window"], photo: "photos/utility-308729.jpg" }
+        { id: "308729", type: "UTILITY", size: "10×12", color: "Unknown", price: 4699, features: ["Side Door", "Window"], photo: null }
     ];
 
     const typeNames = {
@@ -1035,8 +1101,8 @@
             <article class="building-card">
                 <div class="building-card-image" ${building.photo ? `style="background: none;"` : ''}>
                     ${building.photo ? `<img src="${building.photo}" alt="${building.size} ${typeNames[building.type]}">` : '🏠'}
-                    <span class="card-badge ${building.sold ? 'badge-sold' : building.clearance ? 'badge-clearance' : 'badge-stock'}">
-                        ${building.sold ? '🔴 SOLD' : building.clearance ? 'Clearance' : 'In Stock'}
+                    <span class="card-badge ${building.clearance ? 'badge-clearance' : 'badge-stock'}">
+                        ${building.clearance ? 'Clearance' : 'In Stock'}
                     </span>
                     ${building.color && building.color !== 'Unknown' ? `<span class="card-color">${building.color}</span>` : ''}
                 </div>
@@ -1051,7 +1117,7 @@
                             $${building.price.toLocaleString()}
                             <span>or ~$${Math.round(building.price / 48)}/mo</span>
                         </div>
-                        <button class="card-btn" onclick="alert('Call (636) 354-7406 to schedule a visit!')">View</button>
+                        <a class="card-btn" href="calculator.html" style="text-decoration:none; text-align:center;">💰 Payments</a>
                     </div>
                 </div>
             </article>
